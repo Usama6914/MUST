@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sec1{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../images/banner1.jpeg);
+}
+.sec1 .container{
+    padding-top: 50vh;
+    color: white;
+}
+.sec1 .container  a,
+.sec10 a{
+    text-decoration: none;
+    color: white;
+    padding: 2vh 2vw;
+    background-color: #d5440b;
+    border: none;
+}
+.sec1 .container  a:hover,
+.sec10 a:hover{
+    background-color: #af3200;
+}
+
+
+
+.sec10{
+    margin: 10vh 6vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: #f9fafb;
+    text-align: center;
+}
+
+
+
+.sec2 .row{
+    height: 40vh;
+    margin-top: 10vh;
+}
+.sec2 .row h1{
+    margin-top: 15vh;
+}
+.sec2 .row img{
+    width: 50%;
+    /* border: 1px solid red; */
+}

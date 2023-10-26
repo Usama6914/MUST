@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sec1{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../images/banner1.jpeg);
+}
+.sec1 .container{
+    padding-top: 50vh;
+    color: white;
+}
+.sec1 .container  a,
+.sec10 a{
+    text-decoration: none;
+    color: white;
+    padding: 2vh 2vw;
+    background-color: #d5440b;
+    border: none;
+}
+.sec1 .container  a:hover,
+.sec10 a:hover{
+    background-color: #af3200;
+}
+.sec2{
+    margin-top: 10vh;
+}
+.sec2 .container{
+    width: 960px;
+    text-align: justify;
+}
+.sec2 .intro{
+    margin-top: 10vh;
+}
+/* 
+@media (max-width:1200px) {
+    .sec2 .container{
+        width: 60vw;
+    }
+}
+@media (max-width:992px) {
+    .sec2 .container{
+        max-width: 840px;
+    }
+}
+@media (max-width:768px) {
+    .sec2 .container{
+        max-width: 660px;
+    }
+}
+@media (max-width:576px) {
+    .sec2 .container{
+        max-width: 540px;
+    }
+} */
+
+.sec10{
+    margin: 10vh 6vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: #f9fafb;
+    text-align: center;
+}
+
+.gvrnr{
+    margin-top: 20vh;
+}

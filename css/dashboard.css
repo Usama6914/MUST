@@ -1,0 +1,47 @@
+.navbar{
+    height: 80px;
+}
+.navbar .navbar-brand img{
+    width: 200px;
+    height: 45px;
+}
+.navbar{
+    background: linear-gradient(89deg, #112c4f 39.234406%, #991b1e 122.5708%);
+}
+
+.sidebar{
+    background: linear-gradient(to bottom, #112c4f 39.234406%, #991b1e 122.5708%);
+    color: white;
+    height: 100vh;
+    padding-top: 5vh;
+}
+
+.sidebutton{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sidebutton button{
+    background-color: transparent;
+    color: white;
+}
+.sidebutton button:hover{
+    background-color: #a33133;
+    color:white;
+}
+
+.card-header h4{
+    text-align:center;
+    font-weight:bold;
+}
+.card{
+    margin-top:10vh;
+}
+
+
+.sec1 a{
+    text-decoration: none;
+}
+.sec1 a:hover{
+text-decoration:2px underline;
+}

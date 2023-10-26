@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 80px;
+}
+.navbar .navbar-brand img{
+    width: 200px;
+    height: 45px;
+}
+.navbar{
+    background: linear-gradient(89deg, #112c4f 39.234406%, #991b1e 122.5708%);
+}
+.sec1 .row{
+    background: url(../images/must.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+.sec2{
+    height: 70vh;
+}
+.sec2 .container-fluid .form h3{
+    text-align: center;
+    /* margin-top: 10vh; */
+}
+.sec2 .container-fluid .login{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sec2 .container-fluid .login .btn-primary{
+    width: 90%;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:  #F49F67;
+}
+.sec2 .container-fluid .login .btn-primary:hover{
+background-color: #e8813c;
+}
+.sec2 .container-fluid .form{
+/* text-align: left;     */
+    padding-top: 10vh;
+    height: 70vh;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+}
+.sec2 .container-fluid .form label{
+    text-align: left;
+    margin-top: 2vh;
+    margin-bottom: 0vh;
+}
+.form-check{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+input[type=submit]{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+}
+input[type=text],
+input[type=password],
+input[type=email],
+.sec2 .form select,
+form .input-group span{
+    border: none;
+    background-color:transparent;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+}
+
+.frmside{
+    background: url(../images/item22.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 70vh; */
+}
+
+.btn{
+    display: inline;
+}
+
+
+
+
+
+
+
+footer{
+    padding: 5vh 2vw;
+    background: linear-gradient(89deg, #112c4f 39.234406%, #991b1e 122.5708%);
+    color: white;
+}
+footer .social a img{
+    width: 3vw;
+}
+footer ul{
+    padding-bottom: 3vh;
+    list-style: none;
+    padding-left: 0rem;
+}
+footer ul li{
+    margin-top: 3vh;
+}

@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sec1{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../images/item23.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sec1 h1{
+    color: white;
+    text-align: center;
+    padding-top: 45vh;
+    padding-bottom: 45vh;
+}
+
+.sec2{
+    margin-top: 15vh;
+}
+.sec2 .container{
+    width: 960px;
+}
+.sec2 .card{
+    width: 85%;
+    /* height: 20vh; */
+    padding: 4vh 2vw;
+    margin-left: 5vw;
+}
+.sec2 .card .btn-primary{
+    background-color: #d5440b;
+    color: white;
+    border: none;
+    height: 50px;
+    font-size: 25px;
+    margin-bottom: 3vh;
+}
+.sec2 .card .btn-primary:hover{
+    background-color: #a12e01;
+}
+
+
+
+
+
+.sec4{
+    background-color: #101c3f;
+    color: white;
+    margin-top: 10vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.sec4 .slick-slide{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.sec4 .slider2 .card img{
+    width: 100%;
+    height: 55vh;
+
+}
+.sec4 .slider2 .card{
+    width: 30vw;
+    height: 55vh;
+}
+.sec4 .slider2 .card .card-content{
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    padding: 5vh 3vw;
+}
+.sec4 .right{
+    text-align: right;
+}
+.sec4 .right a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+
+.sec9{
+    margin-top: 10vh;
+}
+.sec9 h1{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10vh;
+
+}
+.sec9 .logos{
+ justify-content: center;
+}
+.sec9 img{
+    width: 5vw;
+    margin: 0px;
+}
+.sec10{
+    margin: 10vh 6vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: #f9fafb;
+    text-align: center;
+}
+
